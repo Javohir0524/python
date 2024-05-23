@@ -1,22 +1,6 @@
-#def my_function(name, location, birthdate):
-	#print(f"Name is {name}")
-	#print(f"location is {location}")
-	#print(f"birthdate is {birthdate}")
-	
-#my_function("Javohir", "Xorazm", "2000.07.01")
-
-
-# Exercises
-
-import math
-
-def paint_calc(height, width, cover):
-	num_cans = (height * width) / cover
-	round_up_cans = math.ceil(num_cans)
-	print(f"You'll need {round_up_cans} cans of paint.")
-	
-	#Your code above this line
-test_h = int(input()) # Height of wall (m)
-test_w = int(input()) # Width of wall (m)
-coverage = 5
-paint_calc(height=test_h, width=test_w, cover=coverage)
+def prime_checker(number):
+	is_prime = True
+	for i in range(2, number):
+		if number % i == 0:
+			is_prime = False
+			
