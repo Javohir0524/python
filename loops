@@ -1,6 +1,0 @@
-
-mylist = ["banana","apple", "lemon"]
-print(mylist)
-#allows duplicate elements
-for x in mylist:
-        print (x)
